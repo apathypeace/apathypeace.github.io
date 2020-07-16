@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+	font-family: 'Abel', sans-serif;
+	color:#04ff9b;
+	text-shadow: 2px 0px #0078ff, -2px 0px #ff0090;
+	margin:0;
+	background: #000000;
+	text-align: center;
+}
+a:link, a:visited {
+	color:#04ff9b;
+	text-decoration: none;
+}
+a:link:hover {
+	text-decoration: underline wavy;
+}
+.header-icon{
+	display: inline-block;
+	background-image: url("../portfolio/images/bunny192.png");
+	background-size: cover;
+	transform: scale(2);
+	margin-right:10px;
+	index: 10;
+	width:20px;
+	height:20px;
+}
+header{
+	margin-top: 10px;
+	font-size: 20px;
+	height: 40px;
+	border-bottom: 0px solid #0f0f1e;
+}
+.content{
+	margin: auto;
+	max-width: 1600px;
+}
+.pcardholder{
+	background: rgba(0,0,0,0.8);
+	height: 100%;
+	font-size:0;
+}
+
+.pcardcontainer{
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+}
+.pcard{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-top: 100%;
+	filter: opacity(100%) contrast(100%);
+	transition: 0.2s;
+}
+.pcard:hover{
+
+	transform:scale(1.02);
+	filter:opacity(100%) contrast(130%);
+}
+
+
+/* Portfolio ID's */
+#futuresoilerbust{background-image: url("../portfolio/images/tn_wert4gdsfdsfd.png");}
+#lighttriskull{background-image: url("../portfolio/images/tn_lighttriskull.png");}
+#bullets{background-image: url("../portfolio/images/tn_9mm_bullets.png");}
+#shotgunshell{background-image: url("../portfolio/images/tn_shotgunshell.png");}
+#foxsoilder{background-image: url("../portfolio/images/tn_foxsoilder.png");}
+#spacehelmet{background-image: url("../portfolio/images/tn_spacehelmet.png");}
+#technodemon{background-image: url("../portfolio/images/tn_technodemon.png");}
+#mechanicus{background-image: url("../portfolio/images/tn_mechanicus.png");}
+#aimpoint{background-image: url("../portfolio/images/tn_aimpoint.png");}
