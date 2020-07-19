@@ -12,6 +12,15 @@ a:link, a:visited {
 a:link:hover {
 	text-decoration: underline wavy;
 }
+.player{
+	border-radius: 4px;
+  box-shadow: 2px 1px 0px rgba(0, 120, 255, 1), -2px 2px 0px rgba(255, 0, 144, 1);
+	padding:1px;
+	min-width:100px;
+	max-width:500px;
+	height:40px;
+	background-color: rgba(50, 50, 50, 1);
+}
 .songtitle{
 	margin-top: 5px;
 	color: rgba(100, 255, 180, 1);

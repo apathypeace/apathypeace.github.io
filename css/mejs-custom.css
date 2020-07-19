@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 /* mejs container */
-.player{
-  box-shadow: 2px 1px 0px rgba(0, 120, 255, 0.5), -2px 2px 0px rgba(255, 0, 144, 0.5);
-	padding:0px;
-	min-width:100px;
-	max-width:400px;
-	height:40px;
-	background-color: rgba(100, 255, 180, 0.5);
-}
+
 
 .mejs__container {
   background: ;
   font-family: 'Abel', sans-serif;
 }
 .mejs__controls:not([style*='display: none']) {
+  height: 40px;
   background: rgba(0, 0, 0, 0.0);
   background: -webkit-linear-gradient(55deg, rgba(30, 30, 30, 1), rgba(50, 50, 50, 1));
   background: linear-gradient(55deg, rgba(30, 30, 30, 1), rgba(50, 50, 50, 1));
@@ -23,8 +17,14 @@
   filter: drop-shadow( 3px 0px 0px rgba(0, 120, 255, 1)) drop-shadow( -3px 0px 0px rgba(255, 0, 144, 1));
 }
 .mejs__time {
+  margin-top: -2px;
   color: rgba(100, 255, 180, 1);
 	text-shadow: 2px 0px rgba(0, 120, 255, 1), -2px 0px rgba(255, 0, 144, 1);
   font-family: 'Abel', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+}
+.mejs__horizontal-volume-current {
+  filter: drop-shadow( 3px 0px 0px rgba(0, 120, 255, 1)) drop-shadow( -3px 0px 0px rgba(255, 0, 144, 1));
+  background: rgba(100, 255, 180, 1);
+  box-shadow: 0px 0px 5px #000;
 }
