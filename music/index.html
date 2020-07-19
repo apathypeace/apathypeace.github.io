@@ -4,25 +4,40 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>A P A T H Y / P E A C E</title>
-	<link rel="stylesheet" href="../css/app.css">
-	<link href="../css/jquery.fancybox.css" rel="stylesheet"/>
+	<title>A P A T H Y / M U S I C</title>
+	<link href="../css/app.css" rel="stylesheet">
 	<link rel="icon" type="image/png" href="favicon.png" sizes="16x16">
 	<script src="../js/jquery.js"></script>
+	<!-- fancybox -->
+	<link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.css">
 	<script src="../js/jquery.fancybox.js"></script>
-	<script src="../mejs/css/mediaelementplayer.min.css"></script>
-	<script src="../mejs/js/mediaelement-and-player.min.js"></script>
-
+	<!-- mediaElement -->
+	<link rel="stylesheet" type="text/css" href="../mejs/mediaelementplayer.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/mejs-custom.css">
+	<script src="../mejs/mediaelement-and-player.min.js"></script>
 </head>
 
 <body>
 	<header><div class="header-icon"></div>APATHY/PEACE  |  <a href="../home/">2D/3D</a>  |  <a href="../music/">MUSIC</a></header>
+
 	<div class="content">
-		<div class="audioplayercontainer">
-			<audio class="mejs__player">
-				  <source src="../audiofiles/enhance.ogg" type="audio/ogg">
-			</audio>
+		<div class="player">
+			<audio class="mejs__player" controls="controls" src="../audiofiles/enhance.ogg" height="100%" width="100%" type="audio/ogg"></audio>
+			<div class="songtitle">enhance</div>
 		</div>
 	</div>
+
+<!--
+	<script>
+		$('video, audio').mediaelementplayer({
+			// Do not forget to put a final slash (/)
+			pluginPath: 'https://cdnjs.com/libraries/mediaelement/',
+			// this will allow the CDN to use Flash without restrictions
+			// (by default, this is set as `sameDomain`)
+			shimScriptAccess: 'always'
+			// more configuration
+		});
+	</script>
+-->
 </body>
 </html>

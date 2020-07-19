@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
 body {
 	font-family: 'Abel', sans-serif;
-	color:#04ff9b;
-	text-shadow: 2px 0px #0078ff, -2px 0px #ff0090;
 	margin:0;
 	background: #000000;
 	text-align: center;
@@ -14,6 +11,12 @@ a:link, a:visited {
 }
 a:link:hover {
 	text-decoration: underline wavy;
+}
+.songtitle{
+	margin-top: 5px;
+	color: rgba(100, 255, 180, 1);
+	float: left;
+	text-shadow: 2px 0px rgba(0, 120, 255, 1), -2px 0px rgba(255, 0, 144, 1);
 }
 .header-icon{
 	display: inline-block;
@@ -26,6 +29,8 @@ a:link:hover {
 	height:20px;
 }
 header{
+	color:#04ff9b;
+	text-shadow: 2px 0px #0078ff, -2px 0px #ff0090;
 	margin-top: 10px;
 	font-size: 20px;
 	height: 40px;
@@ -40,7 +45,6 @@ header{
 	height: 100%;
 	font-size:0;
 }
-
 .pcardcontainer{
 	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 	position: relative;
@@ -58,16 +62,9 @@ header{
 	transition: 0.2s;
 }
 .pcard:hover{
-
 	transform:scale(1.02);
 	filter:opacity(100%) contrast(130%);
 }
-.audioplayercontainer{
-	width: 400px;
-	height: 400px;
-}
-
-
 /* Portfolio ID's */
 #deathrattlesoldat{background-image: url("../portfolio/images/tn_death-rattle-soldat.png");}
 #lighttriskull{background-image: url("../portfolio/images/tn_lighttriskull.png");}
